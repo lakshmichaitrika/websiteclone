@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { LanguageContext } from '../../context/LanguageContext.jsx';
 import { Link } from 'react-router-dom';
 import { FaWhatsappSquare ,FaPhoneAlt }  from "react-icons/fa";
+import img2 from "../../images/logo.png"
 
 import './index.css';
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
     <>
     <header className="header">
       <div className="logo-title">
-        <img src="./images/logo.png" alt="Logo" className="logo" />
+        <img src={img2} alt="Logo" className="logo" />
        
       </div>
       <nav className="navbar">

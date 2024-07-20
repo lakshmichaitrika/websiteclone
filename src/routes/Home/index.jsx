@@ -1,6 +1,7 @@
 
 import React, { useContext } from 'react';
 import { LanguageContext } from '../../context/LanguageContext.jsx';
+import img1 from "../../images/homepage_ima1.png"
 import "./index.css"
 const Home = () => {
   const { language } = useContext(LanguageContext);
@@ -26,7 +27,7 @@ const Home = () => {
         <p>{text[language].line2}</p>
       </div>
       <div className="image-section">
-        <img src="./images/homepage_ima1.png" alt="Home" />
+        <img src={img1} alt="Home" />
         
       </div>
     </div>
