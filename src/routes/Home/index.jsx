@@ -26,7 +26,8 @@ const Home = () => {
         <p>{text[language].line2}</p>
       </div>
       <div className="image-section">
-        <img src="images/homepage_ima1.webp" alt="Home" />
+        <img src="./images/homepage_ima1.png" alt="Home" />
+        
       </div>
     </div>
   );
